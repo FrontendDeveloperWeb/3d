@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Portfolio</title>
     <?php include 'links.php' ?>
     <!-- https://f5394ad4a4d84890b42f15605b139cf8.prod.enterapp.pro/ -->
 </head>
@@ -16,55 +16,37 @@
     <!-- End header -->
 
     <!-- section banner -->
-    <section class="hero-section">
+    <section class="hero-section about-hero">
         <div class="hero-bg-zoom"
-            style="background-image: linear-gradient(rgba(10, 13, 12, 0.8), rgba(10, 13, 12, 0.9)), url('assets/images/hero-bg.jfif');">
+            style="background-image: linear-gradient(rgba(10, 13, 12, 0.8), rgba(10, 13, 12, 0.9)), url('assets/images/about-us-bg.jfif');">
         </div>
 
-        <div class="frame-corner top-left"></div>
-        <div class="frame-corner top-right"></div>
-        <div class="frame-corner bottom-left"></div>
-        <div class="frame-corner bottom-right"></div>
 
         <div class="container hero-container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-10 col-xl-9">
 
-                    <span class="hero-badge text-uppercase">Ultra-Luxury 3D Visualization Studio</span>
+                    <span class="hero-badge text-uppercase">Our Work</span>
                     <div class="hero-title-wrapper">
 
                         <h1 class="hero-title phrase-1">
-                            <div class="line-mask">
-                                <span class="smooth-line">Render Your Architectural Vision</span>
-                            </div>
-                            <div class="line-mask">
-                                <span class="smooth-line line-italic">Into Reality</span>
-                            </div>
-                        </h1>
-
-                        <h1 class="hero-title phrase-2">
-                            <div class="line-mask">
-                                <span class="smooth-line">Immersive 3D Spatial Concepts</span>
-                            </div>
-                            <div class="line-mask">
-                                <span class="smooth-line line-italic">Hyper-Real Precision</span>
-                            </div>
+                            Portfolio
+                            <span>Showcase</span>
                         </h1>
 
                     </div>
 
                     <p class="hero-desc">
-                        We craft ultra-photorealistic 3D environments that reveal exactly what your property will look
-                        like — every texture, every shadow, every detail — before construction begins.
+                        We are a team of visionary artists, architects, and technologists dedicated to shifting the boundaries of 3D visualization. Through a perfect blend of technical precision and cinematic artistry, we bring unbuilt spaces to life.
                     </p>
 
                     <div
                         class="hero-actions d-flex flex-sm-row flex-column justify-content-center align-items-center gap-3">
                         <a href="#" class="btn btn-theme">
-                            Request a Consultation <i class="ri-arrow-right-line ms-2"></i>
+                            Meet Our Team <i class="ri-arrow-right-line ms-2"></i>
                         </a>
                         <a href="#" class="btn btn-theme btn-theme-outline">
-                            <i class="ri-play-fill me-2"></i> View Our Work
+                            <i class="ri-play-fill me-2"></i> Watch Showreel
                         </a>
                     </div>
 
@@ -72,260 +54,15 @@
             </div>
         </div>
 
-        <div class="scroll-explore">
-            <span class="text-uppercase">Scroll to Explore</span>
-            <i class="ri-arrow-down-s-line chevron-down"></i>
-        </div>
+
     </section>
     <!-- End section -->
 
-    <!-- Sec-01 -->
-    <section class="section comparison-section">
-        <div class="container">
-
-            <div class="row justify-content-center text-center mb-5">
-                <div class="col-lg-8">
-                    <span class="section-badge text-uppercase">The Transformation</span>
-                    <h2 class="section-title">From Empty Room to <span class="accent-text">Luxury Vision</span></h2>
-                    <p class="section-desc">
-                        Drag the divider to reveal how we transform bare spaces into breathtaking, photorealistic luxury
-                        environments.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-12 col-xl-11">
-                    <div class="comparison-slider-container">
-
-                        <div class="slider-image image-before">
-                            <img src="assets/images/before.jpeg" alt="Empty Space Before Transformation" loading="lazy">
-                            <span class="image-label label-before text-uppercase">Empty Space</span>
-                        </div>
-
-                        <div class="slider-image image-after">
-                            <img src="assets/images/after.jpeg" alt="Luxury 3D Architectural Visualization"
-                                loading="lazy">
-                            <span class="image-label label-after text-uppercase">3D Visualization</span>
-                        </div>
-
-                        <div class="slider-handle">
-                            <div class="handle-line"></div>
-                            <div class="handle-button">
-                                <i class="ri-arrow-left-right-line"></i>
-                            </div>
-                            <div class="handle-line"></div>
-                        </div>
-
-                    </div>
-
-                    <div class="text-center mt-3">
-                        <span class="drag-hint text-uppercase">
-                            <i class="ri-arrow-left-s-line"></i> Drag to compare <i class="ri-arrow-right-s-line"></i>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- Sec-01 End -->
 
     <!--  sec-Counter-->
     <?php include 'counter.php' ?>
-  
+
     <!--  sec-Counter End-->
-
-    <section class="services-section">
-        <div class="container">
-            <div class="section-divider-line"></div>
-
-            <div class="services-header" data-aos="fade-up">
-                <span class="section-tagline">What We Offer</span>
-                <h2 class="section-title">Our Premium Services</h2>
-                <p class="section-subtitle">From ultra-photorealistic 3D renders to full-spectrum digital marketing, we
-                    provide end-to-end architectural visualization solutions.</p>
-            </div>
-
-            <div class="services-grid">
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-icon"><i class="ri-headphone-line"></i></div>
-                    <span class="card-tag">Immersive Tech</span>
-                    <h3 class="card-title">Interactive VR Simulations</h3>
-                    <p class="card-desc">Fully immersive virtual reality walkthroughs that let buyers step inside
-                        unbuilt
-                        properties with photorealistic...</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
-                    <div class="card-icon"><i class="ri-building-2-line"></i></div>
-                    <span class="card-tag">Core Service</span>
-                    <h3 class="card-title">3D Architectural Visualization</h3>
-                    <p class="card-desc">Ultra-photorealistic 3D renders of buildings, interiors, and master plans that
-                        bridge the gap between blueprint and...</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card-icon"><i class="ri-aspect-ratio-line"></i></div>
-                    <span class="card-tag">Virtual Staging</span>
-                    <h3 class="card-title">360° Virtual Staging</h3>
-                    <p class="card-desc">Panoramic 360-degree virtual staging that showcases every angle of a space in
-                        breathtaking ultra-high definition.</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="250">
-                    <div class="card-icon"><i class="ri-sofa-line"></i></div>
-                    <span class="card-tag">Virtual Staging</span>
-                    <h3 class="card-title">Virtual Staging</h3>
-                    <p class="card-desc">Digitally furnish and style empty properties to dramatically increase buyer
-                        appeal
-                        and market value perception.</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-icon"><i class="ri-magic-line"></i></div>
-                    <span class="card-tag">Photo Enhancement</span>
-                    <h3 class="card-title">Decluttering</h3>
-                    <p class="card-desc">Digitally remove unwanted items, furniture, and clutter from property photos to
-                        present spaces at their pristine...</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
-                    <div class="card-icon"><i class="ri-sparkling-2-line"></i></div>
-                    <span class="card-tag">Virtual Staging</span>
-                    <h3 class="card-title">Virtual Staging & Decluttering</h3>
-                    <p class="card-desc">The complete transformation package — remove existing clutter and add premium
-                        virtual furnishings in one streamlined...</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card-icon"><i class="ri-line-chart-line"></i></div>
-                    <span class="card-tag">Marketing</span>
-                    <h3 class="card-title">Digital Marketing</h3>
-                    <p class="card-desc">Data-driven real estate marketing campaigns that leverage stunning visual
-                        assets to
-                        maximize property exposure...</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="250">
-                    <div class="card-icon"><i class="ri-database-2-line"></i></div>
-                    <span class="card-tag">Technology</span>
-                    <h3 class="card-title">IDX Integration Services</h3>
-                    <p class="card-desc">Seamless MLS/IDX integration solutions that embed live property listings
-                        directly
-                        into your real estate website.</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-icon"><i class="ri-palette-line"></i></div>
-                    <span class="card-tag">Creative</span>
-                    <h3 class="card-title">Graphic Design</h3>
-                    <p class="card-desc">Premium branding and graphic design services crafted specifically for luxury
-                        real
-                        estate and architectural professionals.</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
-                    <div class="card-icon"><i class="ri-code-s-slash-line"></i></div>
-                    <span class="card-tag">Technology</span>
-                    <h3 class="card-title">Custom Software Development</h3>
-                    <p class="card-desc">Bespoke real estate technology solutions — from interactive property portals to
-                        custom CRM and showcase platforms.</p>
-                    <a href="#" class="card-link">Learn more <i class="ri-arrow-right-line"></i></a>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-
-
-
-
-
-    <section class="why-choose-section">
-        <div class="container why-choose-wrapper">
-
-            <div class="w-content-col" data-aos="fade-right">
-                <span class="w-tagline">Why Choose Us</span>
-                <h2 class="w-title">Where Architecture Meets Artistry</h2>
-                <p class="w-description">
-                    We are not simply a rendering studio. We are architectural storytellers who understand
-                    that every pixel must communicate luxury, precision, and possibility. Our work
-                    transforms how buyers, investors, and developers experience unbuilt spaces.
-                </p>
-
-                <div class="w-features-list">
-
-                    <div class="w-feature-item">
-                        <div class="w-feature-icon">
-                            <i class="ri-medal-line"></i>
-                        </div>
-                        <div class="w-feature-text">
-                            <h3>Uncompromising Quality</h3>
-                            <p>Every render undergoes a rigorous multi-stage quality review process. We deliver nothing
-                                less than photorealism.</p>
-                        </div>
-                    </div>
-
-                    <div class="w-feature-item">
-                        <div class="w-feature-icon">
-                            <i class="ri-time-line"></i>
-                        </div>
-                        <div class="w-feature-text">
-                            <h3>Rapid Delivery</h3>
-                            <p>Standard projects delivered within 24–48 hours. Rush delivery available for time-critical
-                                listings.</p>
-                        </div>
-                    </div>
-
-                    <!-- Feature 3 -->
-                    <div class="w-feature-item">
-                        <div class="w-feature-icon">
-                            <i class="ri-shield-check-line"></i>
-                        </div>
-                        <div class="w-feature-text">
-                            <h3>Unlimited Revisions</h3>
-                            <p>We work until you are completely satisfied. Your vision is our mission — no revision
-                                caps, ever.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="w-action-wrapper">
-                    <a href="#" class="btn btn-theme">
-                        Request a Consultation <i class="ri-arrow-right-line ms-2"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="w-media-col" data-aos="fade-left">
-                <div class="deco-frame frame-top-left"></div>
-                <div class="deco-frame frame-bottom-right"></div>
-
-                <div class="w-image-container">
-                    <img src="assets/images/architecture-showcase.jpg" alt="Luxury Architecture Walkthrough"
-                        class="w-main-img">
-
-                    <div class="w-counter-badge">
-                        <span class="counter-number">1,200+</span>
-                        <span class="counter-label">Projects Delivered</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
 
     <section class="portfolio-section">
@@ -463,7 +200,7 @@
                 <div class="swiper-pagination portfolio-pagination"></div>
             </div>
 
-      
+
             <div class="portfolio-slider-block" id="exterior">
                 <div class="swiper portfolioSwiper">
                     <div class="swiper-wrapper">
@@ -502,6 +239,8 @@
 
         </div>
     </section>
+
+
 
 
     <section class="testimonials-section">
@@ -728,9 +467,11 @@
     </section>
     <!-- section ENd -->
 
-    <?php //include "partners.php" ?>
+    <?php //include "partners.php" 
+    ?>
 
-    <?php  // include 'get-quote.php' ?>
+    <?php  // include 'get-quote.php' 
+    ?>
     <!-- end -->
 
     <!-- footer -->

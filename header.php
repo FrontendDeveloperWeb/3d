@@ -20,7 +20,7 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
 
     <nav class="navbar navbar-expand-xl navbar-dark stroke bg-transparent">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index">
                 <img src="assets/images/logo.png" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -33,12 +33,12 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'index') {
                             echo 'active';
-                        } ?>" href="#">Home</a>
+                        } ?>" href="index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if ($page == '#') {
+                        <a class="nav-link <?php if ($page == 'about-us') {
                             echo 'active';
-                        } ?>" href="#">About Us</a>
+                        } ?>" href="about-us">About Us</a>
                     </li>
                     <li class="nav-item dropdown navdesktop">
                         <a class="nav-link <?php if ($page == '#') {
@@ -61,16 +61,16 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if ($page == '#') {
+                        <a class="nav-link <?php if ($page == 'portfolio') {
                             echo 'active';
-                        } ?>" href="#">
-                            Blog
+                        } ?>" href="portfolio">
+                            Portfolio
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if ($page == '#') {
+                        <a class="nav-link <?php if ($page == 'contact-us') {
                             echo 'active';
-                        } ?>" href="#">
+                        } ?>" href="contact-us">
                             Contact Us
                         </a>
                     </li>
