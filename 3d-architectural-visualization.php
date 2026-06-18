@@ -15,7 +15,7 @@
     <?php include 'header.php' ?>
     <!-- End header -->
 
-    <h1 style="color:red;">Services</h1>
+    <h1 style="color:blue;">Services</h1>
     
 
 
